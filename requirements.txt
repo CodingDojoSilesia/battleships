@@ -1,0 +1,9 @@
+-i https://pypi.org/simple
+cffi==1.11.5
+glfw==1.7.0
+numpy==1.15.0
+pillow==5.2.0
+pycparser==2.18
+pyopengl==3.1.0
+pyxel==0.7.10
+sounddevice==0.3.11
