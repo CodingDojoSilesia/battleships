@@ -42,6 +42,4 @@ if __name__ == "__main__":
     game.run()
 
 # TODO
-# readme
-# requirements.txt
 # basic display
