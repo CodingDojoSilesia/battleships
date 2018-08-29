@@ -12,6 +12,15 @@ Rules in Polish: https://pl.wikipedia.org/wiki/Okr%C4%99ty
 * virtual environment
 * Linux/Mac require glfw or libglfw depending on OS
 
+## Too old glfw3 on ubuntu 16.04 (debian has newer package lol :/)
+
+```sh
+wget https://github.com/glfw/glfw/releases/download/3.2.1/glfw-3.2.1.zip
+unzip glfw-3.2.1.zip
+cd glfw-3.2.1
+cmake -DCMAKE_INSTALL_PREFIX=/usr && make -j4 && sudo make install
+```
+
 # How to start
 
 * clone this repo
