@@ -18,7 +18,10 @@ Rules in Polish: https://pl.wikipedia.org/wiki/Okr%C4%99ty
 wget https://github.com/glfw/glfw/releases/download/3.2.1/glfw-3.2.1.zip
 unzip glfw-3.2.1.zip
 cd glfw-3.2.1
-cmake -DCMAKE_INSTALL_PREFIX=/usr && make -j4 && sudo make install
+
+# srsly safe.
+sudo apt install cmake libx11-dev libxrandr-dev libxinerama-dev libxcursor-dev mesa-common-dev
+cmake -DCMAKE_INSTALL_PREFIX=/usr -DBUILD_SHARED_LIBS=ON && make -j4 && sudo make install
 ```
 
 # How to start
